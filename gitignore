@@ -1,0 +1,54 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C/C++ object files
+*.o
+*.obj
+*.elf
+
+# Build results
+/build/
+/cmake-build-*/
+
+# Arduino/ESP32
+*.bin
+*.elf
+*.hex
+*.map
+*.d
+*.dep
+*.eep
+*.lss
+
+# PlatformIO
+.pio/
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled libraries
+*.a
+*.lib
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Documentation
+*.pdf
+
+# Ignore sensitive or local config files
+.env
+config.local.json
